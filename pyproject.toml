@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "web-nosql"
+version = "0.1.0"
+description = ""
+authors = ["Kostiantyn-Liapkalo <lynx87@ukr.net>"]
+readme = "README.md"
+packages = [{include = "web_nosql"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mongoengine = "^0.27.0"
+redis = "^4.5.5"
+redis-lru = "^0.1.2"
+pymongo = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

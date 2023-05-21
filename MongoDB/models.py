@@ -1,5 +1,7 @@
 from mongoengine import connect, StringField, Document, ReferenceField, ListField, CASCADE
-connect(host="mongodb+srv://userweb11:567234@cluster0.oqyfihy.mongodb.net/?retryWrites=true&w=majority")
+
+
+connect(host="mongodb+srv://koss:koss@cluster0.q0ppart.mongodb.net/?retryWrites=true&w=majority")
 
 
 class Author(Document):
