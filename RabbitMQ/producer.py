@@ -7,7 +7,7 @@ from mongoengine import connect, StringField, Document, BooleanField
 
 fake = Faker('uk-UA')
 
-connect(host="mongodb+srv://koss:koss@cluster0.q0ppart.mongodb.net/?retryWrites=true&w=majority")
+connect(host="mongodb+srv://koss:koss@cluster0.oqyfihy.mongodb.net/?retryWrites=true&w=majority")
 
 credentials = pika.PlainCredentials('guest', 'guest')
 connection = pika.BlockingConnection(
